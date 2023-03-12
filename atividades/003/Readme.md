@@ -1,6 +1,6 @@
 ## Função para calcular número de Euler
 
-![](cover.jpg)
+![](cover.png)
 
 ## Motivação
 
@@ -22,27 +22,31 @@ A função `main` lê o inteiro $N$ e imprime o valor de `euler(N)`.
 
 
 ### Entrada
-- 3 lados em float, um por linha
+- 1a linha: valor do inteiro positivo N
 
 ### Saída
-- Área com duas casas decimais.
+- Aproximação do número de Euler somando até $1/N!$
+
+**Dica:** Para esta questão, pesquise sobre as funções `std::fixed` e `std::setprecision()` da biblioteca <iomanip>
 
 ## Exemplos
 
 ```
 >>>>>>>>
-4
-3
-5
+10
 ========
-6.00
+2.718282
 <<<<<<<<
 
 >>>>>>>>
-10
-12
-16
+5
 ========
-59.92
+2.716667
+<<<<<<<<
+
+>>>>>>>>
+3
+========
+2.666667
 <<<<<<<<
 ```
