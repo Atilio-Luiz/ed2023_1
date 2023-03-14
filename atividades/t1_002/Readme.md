@@ -27,7 +27,7 @@ A função `main` lê o inteiro $N$ e imprime o valor de `euler(N)`.
 ### Saída
 - Aproximação do número de Euler somando até $1/N!$
 
-**Dica:** Para esta questão, pesquise sobre as funções `std::fixed` e `std::setprecision()` da biblioteca <iomanip>
+**Dica:** Para esta questão, pesquise sobre as funções `std::fixed` e `std::setprecision()` da biblioteca `iomanip`
 
 ## Exemplos
 

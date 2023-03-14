@@ -1,0 +1,29 @@
+case=0
+input=10
+output="2.718282"
+grade reduction=100%
+
+case=1
+input=5
+output="2.716667"
+grade reduction=100%
+
+case=2
+input=3
+output="2.666667"
+grade reduction=100%
+
+case=3
+input=1
+output="2.000000"
+grade reduction=100%
+
+case=4
+input=2
+output="2.500000"
+grade reduction=100%
+
+case=5
+input=7
+output="2.718254"
+grade reduction=100%
